@@ -1,0 +1,41 @@
+# basic commands
+ls : it is used to list all the items(files & folders)  in current directory.
+ls -la : insted of just listing items it will list metadata and hiden files.
+whoami : it is use to know about current user
+cd : use to change directory(folder). eg= cd Downloads
+cd .. : it is use to go backword one directory.
+cat : it is use to print content of file. eg = cat asim.txt
+pwd : use to print the directory in which we are
+grep : it is use to find text with in files. eg = grep "BWk" asim.txt
+echo : is use to print something(text ,variable etc)
+locate : it is use to find a file path. eg = locate asim.txt
+passwd : command is use to change password.
+touch: it is also use to creat a new file.
+mkdir : it is use to make a new directory(folder)
+cp : use to copy a file or folder. eg cp asim.txt Downloads
+rm : use to remove a file or folder (but to remove a folder we use -R ) eg = rm -R Projects
+file : use to know what type of file is this
+sudo -i : is use to swith to root.
+ip addr show or ifconfig : both are use to show ip address mac address and loopback address.
+ip route show : show ip routing table, default gatway etc
+wget : use to download something from web browser. eg = wget www.mwt3u73782.zip
+
+# Operators
+& : use to run a command in the backgroud.it dos'nt wait to finish the frist cmd.
+&& : runs the second command only if the first one worked. eg = mkdir test && cd test
+> : it is use to print the output and overwrite it in to a file.eg = echo "abc" > abc.txt
+>> : it aslo redirect but instead of ower writing it will add the content to bottom of the file.
+
+# file permission 
+In linux for each file & folder there are permission to control that weather who can read write & execute.
+it is in sample formate rwx rwx rwx (frist 3 are for owner next 3 for group and last 3 for others ) r= read and is equal to 4,
+w + write and is equal to 2 while x = execute and its vale is 1
+example : 755 means
+owner can read write and execute (4+2+1=7)
+group and other can only read and execute(4+0+1=5)
+
+# Common Directories
+/etc : it is use to store system configution files
+/var : It holds variable data that changes while the system runs mainly logs (/var/log) caches and mail.
+/root : a home directory for root user.
+/tmp : it is a volatile direcory use to store data for short period.
