@@ -18,7 +18,7 @@ file : use to know what type of file is this
 sudo -i : is use to swith to root.
 ip addr show or ifconfig : both are use to show ip address mac address and loopback address.
 ip route show : show ip routing table, default gatway etc
-wget : use to download something from web browser. eg = wget www.mwt3u73782.zip
+wget : use to download something from web browser. eg = wget http://example.com/mwt3u73782.zip
 
 # Operators
 & : use to run a command in the backgroud.it dos'nt wait to finish the frist cmd.
